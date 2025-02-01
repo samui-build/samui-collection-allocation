@@ -1,0 +1,318 @@
+{
+  "name": "Dean's List NFT Gen 1",
+  "description": "This is the list of Dean's List NFT Gen 1 holders.",
+  "wallets": [
+    {
+      "address": "4zdNGgAtFsW1cQgHqkiWyRsxaAgxrSRRynnuunxzjxue",
+      "amount": 8
+    },
+    {
+      "address": "7A6CrNWAFFBpQTBRo5fULibqqB3MouNLgbVBf8D3MJAx",
+      "amount": 6
+    },
+    {
+      "address": "G1p59D3CScwE9r31RNFsGm3q5xZapt6EXHmtHV7Jq5AS",
+      "amount": 4
+    },
+    {
+      "address": "CinHb6Xt2PnqKUkmhRo9hwUkixCcsH1uviuQqaTxwT9i",
+      "amount": 3
+    },
+    {
+      "address": "3PKhzE9wuEkGPHHu2sNCvG86xNtDJduAcyBPXpE6cSNt",
+      "amount": 3
+    },
+    {
+      "address": "3XN71ShwyPNYZ22fV4phQCnyPj6E6EbMLAD5ReLRvdRP",
+      "amount": 2
+    },
+    {
+      "address": "7pPJt2xoEoPy8x8Hf2D6U6oLfNa5uKmHHRwkENVoaxmA",
+      "amount": 2
+    },
+    {
+      "address": "robrerZh1xEKpEVpA6XbfZ6UKAHkg94RTh4UjZ3acPV",
+      "amount": 1
+    },
+    {
+      "address": "37TGrYNu56AxaeojgtAok8tQAsBSxGhvFKXqCYFAbBrA",
+      "amount": 1
+    },
+    {
+      "address": "JPQmr9p2RF3X5TuBXxn6AGcEfcsHp4ehcmzE5Ys7pZD",
+      "amount": 1
+    },
+    {
+      "address": "EdsN43Us8oUT7FvxNbkqnYGvbAF19XN7evv4seBJ8uSz",
+      "amount": 1
+    },
+    {
+      "address": "73mCyT3bMomugLAACoKqxahYvXYjUnAw826Zu25T6p5x",
+      "amount": 1
+    },
+    {
+      "address": "8m95q25FsDw1FpUBVvpk1WfUnSWzPamyY7jW3MitQXu6",
+      "amount": 1
+    },
+    {
+      "address": "46WWk21XfsqS5C7VwAppikJoNSdNWZxbc8qBXgvB1Yah",
+      "amount": 1
+    },
+    {
+      "address": "RMCuMCgR5rW1MfZfRn9Ry3CZxQYhTtN35y1Z7WhXAS8",
+      "amount": 1
+    },
+    {
+      "address": "Hw9LpmkTCipZiW7pxZ1v6t8Gvg42JKN7UHg3YguZYYvV",
+      "amount": 1
+    },
+    {
+      "address": "5W71TzEMGdQiHRe41MHzQpZmrFiqCTBx11qcsTxy3XSk",
+      "amount": 1
+    },
+    {
+      "address": "47SLVYyszPopgXS2ofJRsqHuvfci1Cw7w9TzHsNpXNuf",
+      "amount": 1
+    },
+    {
+      "address": "8mR9JwadNcpRtZXYAH711wh6SobFN4jWyAkQW8KZw6PE",
+      "amount": 1
+    },
+    {
+      "address": "Ev7kp4NfhVjvUqKMwhKCcvXRb2t828gDaSqWsD2gtPzT",
+      "amount": 1
+    },
+    {
+      "address": "B4sPLzfPv8ZszXhrbjyf3Yekrq2kY4UwTd8iGQbv2XhJ",
+      "amount": 1
+    },
+    {
+      "address": "M2mfoQqghdS2JA4YPhVhx219hQWtmXNFFV7oNTLLJdd",
+      "amount": 1
+    },
+    {
+      "address": "BormmDp6dW8LAHdagPUqCBDCZHoknGMVeFRjTQ3bvkwh",
+      "amount": 1
+    },
+    {
+      "address": "14rghAS2vY4w4BGvm89SRdhwqVGvTZRd6QDmDgsag4Es",
+      "amount": 1
+    },
+    {
+      "address": "EtEfhjYKkcXdwGWC17RacQsoTTFPuT1KFrJWLa1UQMn",
+      "amount": 1
+    },
+    {
+      "address": "kruHL3zJ1Mcbdibsna5xM6yMp7PZZ4BsNTpj2UMgvZC",
+      "amount": 1
+    },
+    {
+      "address": "92vYpmmQXJXSzYgWJWUjd14Mj4CRp33m4rHetaCMEwez",
+      "amount": 1
+    },
+    {
+      "address": "CRwwskVnCsC6ht3V8hJGUfvkHBqyPkK5P9gQJbRcFBME",
+      "amount": 1
+    },
+    {
+      "address": "Et8dPTThN1EdPj4U4UboVzxz6A47ZSepFnhLXU3Zum7",
+      "amount": 1
+    },
+    {
+      "address": "B62YTu29Dr7VAKGWy4hYxu5Cwxm2ewBhRNxefqcUCDtT",
+      "amount": 1
+    },
+    {
+      "address": "3f5uFd91gacMC8ujQqAmGTnH1ofbjiBKZGyfoxDmfYB4",
+      "amount": 1
+    },
+    {
+      "address": "Cj1jScR4V73qLmvWJiGiWs9jtcwCXEZsmS5cevWt9jNc",
+      "amount": 1
+    },
+    {
+      "address": "9V9xnugDuEiHjcGjR3U1D2DhCHhJ8xMJorPXu7s7WqQj",
+      "amount": 1
+    },
+    {
+      "address": "KfxsYDfifaLxH8uQ85tcX8ZCUN4BY8guqxFE1AnkAzu",
+      "amount": 1
+    },
+    {
+      "address": "GGqieUyW18ZForVxhYs6dttUVGELhATX6Hoj2KVTXvxK",
+      "amount": 1
+    },
+    {
+      "address": "Hbg4emqnQAWGf1bqumFWyvQQtjQifBCyewH9ezS7NA6m",
+      "amount": 1
+    },
+    {
+      "address": "HEUdcnYsFQs62NUFoY45s7kFe1GDCkvYzUXx1VZ8EV8c",
+      "amount": 1
+    },
+    {
+      "address": "7YYZE815j6bE3C1tgiAXKWh4FGwUagpxV9oUw6dgE1mU",
+      "amount": 1
+    },
+    {
+      "address": "BDcPaVwfebQVtWipsyHkyQw54tvjegBVStQHPbyLWVbp",
+      "amount": 1
+    },
+    {
+      "address": "BcgYRPQC4mE3e195FmTx4mspmGbDx5xdcdKuLwNG89ov",
+      "amount": 1
+    },
+    {
+      "address": "4pT6ESaMQTgpMs2ZZ81pFF8BieGtY9x4CCK2z6aoYoe4",
+      "amount": 1
+    },
+    {
+      "address": "9Q7HhieXBg4pCwsm4n4NfLZ9XU2uBagWTZLBe9gnxuD7",
+      "amount": 1
+    },
+    {
+      "address": "GsTGWmPA9XRaSkzFd5np3SpnMZbrHf9nujeGihHa52H3",
+      "amount": 1
+    },
+    {
+      "address": "8sV942m3q6NWxHPvSWXqAVykZXeCUHiEBC1hCggWjrTA",
+      "amount": 1
+    },
+    {
+      "address": "DxvWEDKaUAMBwHVF22kCxG2jRWgMLdcWWUVdDjY9EJrH",
+      "amount": 1
+    },
+    {
+      "address": "HMsen7CFW9GQQVSF18DDN2PstSusbrTtMzDGUn2KMvWT",
+      "amount": 1
+    },
+    {
+      "address": "HvSehKXMEERzE5ranPaisamLGzYMH8xYEsiCfXShtdTc",
+      "amount": 1
+    },
+    {
+      "address": "2sVE4nQXwqxgJ33Pbz8D7QLShYjKpAT2bbJbMgA7EeaC",
+      "amount": 1
+    },
+    {
+      "address": "253DoHMdzBPXHbbzoDxHMkmdxaPUtfP5gYGSrVGyhkb2",
+      "amount": 1
+    },
+    {
+      "address": "6ttgY8pd4jCPtoYMjGfom4vBYRzeLPAGyychtDazkgKa",
+      "amount": 1
+    },
+    {
+      "address": "9w31QPPhzK6J4jdhJ4GqW5znAyrqipypk21XTuYEFxEQ",
+      "amount": 1
+    },
+    {
+      "address": "6aJo6zRiC5CFnuE7cqw4sTtHHknrr69NE7LKxPAfFY9U",
+      "amount": 1
+    },
+    {
+      "address": "GPXiHb4tKGX9zntTmcLipujndnN8ZB6bVSHjLHagMbyc",
+      "amount": 1
+    },
+    {
+      "address": "5ZSvK4jAkW2dNuG2cowPPQjdruZWtqW7pCXgMHR4VeB7",
+      "amount": 1
+    },
+    {
+      "address": "9E3mWP3fNLfhNxdsgz1vR6Lw6c3PVb8C4ukmRuPrChXc",
+      "amount": 1
+    },
+    {
+      "address": "6Ff6Wmt1Kh4V7Nrbn1tvPcy8PUhDqhM1tdiYZjeUEkA4",
+      "amount": 1
+    },
+    {
+      "address": "5raEt5w8W3EYzziy5GqkHiUt7a6R3msHUet95yzDYdds",
+      "amount": 1
+    },
+    {
+      "address": "ArWLpgcbC6nGGirahJM8wkyo5B2p3vCiuThRTKuUwmuM",
+      "amount": 1
+    },
+    {
+      "address": "4KyEUeNAdXdkJhnpkdx9VhcvrjYiLmAekmwu2sv5ZzKy",
+      "amount": 1
+    },
+    {
+      "address": "EZLvwGdGyeks3jQLWeBbjL1uGeGbqb2MYU4157pDP9ch",
+      "amount": 1
+    },
+    {
+      "address": "Hsd1M2KrYFQNkJtErH2WBwscgUuPYYM7zitZXPmPGr5L",
+      "amount": 1
+    },
+    {
+      "address": "HPwfZUd7wqrBAyLUgkU8GmGvG44J3HCqXZ1mhXXpe6um",
+      "amount": 1
+    },
+    {
+      "address": "9iwKjQvv27KVaeexgrzzoTFQQH6nM4DWL7CBt7udgBEq",
+      "amount": 1
+    },
+    {
+      "address": "Qrw6y2DiogvivGah9Dj9BuDu8Cr7qxCRUEh63Z1dmpv",
+      "amount": 1
+    },
+    {
+      "address": "mihXvCaJK9QnTrxJVLLEQXgemMrw1DcsrqkxpVw4tdh",
+      "amount": 1
+    },
+    {
+      "address": "CLcXVZpCwF9QH2aNjFhPSzyeUVifkP9W88WHwfe6sMww",
+      "amount": 1
+    },
+    {
+      "address": "Ds2FF5bR2EBS99PwzWmmzxLQ9pKYiRRYWYCkcurUhQ5k",
+      "amount": 1
+    },
+    {
+      "address": "9X5mtNgPUMsd363a4YBPUPB5SBCHDQENBGfSXeLwoGt8",
+      "amount": 1
+    },
+    {
+      "address": "Bw3ThDvrwnXkkETcDSC3GkcFbra7qc1aeGKR6S6F2ke2",
+      "amount": 1
+    },
+    {
+      "address": "EuoVktg82q5oxEA6LvLXF4Xi9rKT1ZrjYqwcd9JA7X1B",
+      "amount": 1
+    },
+    {
+      "address": "H1hW7CgqDL8bgRgBRbubKJgoqDn3hQLXpSsUtXtMdxoH",
+      "amount": 1
+    },
+    {
+      "address": "9WW4oiMyW6A9oP4R8jvxJLMZ3RUss18qsM4yBBHJPj94",
+      "amount": 1
+    },
+    {
+      "address": "AxSv4XsSeWisFhSq7C8MA1TV5BErjDi5K4zze6HPJy8F",
+      "amount": 1
+    },
+    {
+      "address": "G3M2y4xeGR841kY49KBzXLkMyfp5v2qrTesYcKhHQGaB",
+      "amount": 1
+    },
+    {
+      "address": "C6Ac8JbcgeTYG3TkcDHLWVQLrU8oepYu7poHjFzrNukS",
+      "amount": 1
+    },
+    {
+      "address": "FKhNzgSY8ZU12ydREfNGks97ew7dBgyRu2CWhrwnVZEy",
+      "amount": 1
+    },
+    {
+      "address": "GNa9E2dWP8e2fg23pRJoiCvJm5cbzomm94YzotpcRh7A",
+      "amount": 1
+    },
+    {
+      "address": "Fywb7YDCXxtD7pNKThJ36CAtVe23dEeEPf7HqKzJs1VG",
+      "amount": 1
+    }
+  ]
+}
