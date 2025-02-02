@@ -7,7 +7,7 @@ import { snapshots } from "./snapshots";
 const app = new Hono()
 
 app.get('/', (c) => {
-  return c.text('Hello Hono!')
+  return c.text('Samui Collection Allocation API')
 })
 
 app.get('/snapshots', (c) => {
