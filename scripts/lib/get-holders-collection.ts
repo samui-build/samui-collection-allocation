@@ -5,7 +5,7 @@ import { DAS, Helius } from "helius-sdk";
  * @param client Helius Helius client
  * @param group string Solana account address of group
  */
-export async function getAllAssetsByGroup(
+export async function getHoldersCollection(
   client: Helius,
   group: string,
 ): Promise<DAS.GetAssetResponseList> {
@@ -15,7 +15,7 @@ export async function getAllAssetsByGroup(
 
   // Loop through all pages of assets
   while (list.total < page * list.limit) {
-    console.log(` => Fetching page ${page} of assets in collection ${group}`)
+    console.log(`   => getAllAssetsByGroup [${group}] => Fetching page ${page}...`)
     const assets = await client.rpc.getAssetsByGroup({
       groupKey: 'collection',
       groupValue: group,

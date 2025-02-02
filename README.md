@@ -1,6 +1,6 @@
 # samui-collection-allocation
 
-Simple API to manage NFT Collection Allocations.
+Simple API and scripts to manage NFT Collection Allocations on Solana.
 
 ## Usage
 

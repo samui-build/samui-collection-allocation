@@ -1,6 +1,6 @@
 import { DAS, Helius } from "helius-sdk";
 
-export interface LargestTokenHolders {
+export interface TokenHolders {
   total: number,
   items: DAS.TokenAccounts[],
   limit: number,
@@ -8,17 +8,17 @@ export interface LargestTokenHolders {
 }
 
 /**
- * Get the largest token holders
+ * Get token holders
  * @param client Helius client
  * @param mint string Solana mint address
  */
-export async function getLargestTokenHolders(
+export async function getHoldersMint(
   client: Helius,
   mint: string,
-): Promise<LargestTokenHolders> {
+): Promise<TokenHolders> {
   let page = 1
   // Create a response list similar to the one returned by the API
-  const list: LargestTokenHolders = {
+  const list: TokenHolders = {
     total: 0,
     items: [],
     limit: 1000,
@@ -28,11 +28,11 @@ export async function getLargestTokenHolders(
   // Loop through all pages of assets
   while (list.total < page * list.limit) {
 
-    console.log(` => Fetching page ${page} of holders of mint ${mint}`)
+    console.log(`   => getTokenAccounts [${mint}] => Fetching page ${page}...`)
     const assets = await client.rpc.getTokenAccounts({mint, limit: list.limit, page: page})
 
     if (!assets?.token_accounts?.length) {
-      console.log(` => No ${page > 1 ? 'more' : ''} token accounts found for mint ${mint}`)
+      console.log(`   => getTokenAccounts [${mint}] => No ${page > 1 ? 'more' : ''} token accounts found for mint ${mint}`)
       break
     }
 

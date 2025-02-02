@@ -3,10 +3,8 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
-    "fetch:deanslist-gen1": "pnpm tsx ./scripts/get-nft-holders.ts 5FusHaKEKjfKsmQwXNrhFcFABGGxu7iYCdbvyVSRe3Ri ./src/lists/deanslist-gen1.json",
-    "fetch:deanslist-token-holders": "pnpm tsx ./scripts/get-token-holders.ts Ds52CDgqdWbTWsua1hgT3AuSSy4FNx2Ezge1br3jQ14a ./src/lists/deanslist-token-holders.json",
-    "fetch:smb-gen2": "pnpm tsx ./scripts/get-nft-holders.ts SMBtHCCC6RYRutFEPb4gZqeBLUZbMNhRKaMKZZLHi7W ./src/lists/smb-gen2.json",
-    "fetch:smb-gen3": "pnpm tsx ./scripts/get-nft-holders.ts 8Rt3Ayqth4DAiPnW9MDFi63TiQJHmohfTWLMQFHi4KZH ./src/lists/smb-gen3.json"
+    "candy-machine-snapshot": "pnpm tsx ./scripts/get-candy-machine-snapshot.ts",
+    "snapshot": "pnpm tsx ./scripts/get-snapshots.ts"
   },
   "dependencies": {
     "hono": "^4.6.20"
