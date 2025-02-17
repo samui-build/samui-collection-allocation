@@ -5,8 +5,9 @@ import dlFutards from './snapshots/dl-futards.json' assert { type: 'json' }
 import dlVota from './snapshots/dl-vota.json' assert { type: 'json' }
 import smbGen2 from './snapshots/smb-gen2.json' assert { type: 'json' }
 import smbGen3 from './snapshots/smb-gen3.json' assert { type: 'json' }
+import domainDotSer from './snapshots/domain-dot-ser.json' assert { type: 'json' }
 
-export type SnapshotType = 'nft' | 'token' | 'static'
+export type SnapshotType = 'domain' | 'nft' | 'token' | 'static'
 
 export interface SnapshotWallet {
   address: string
@@ -32,6 +33,7 @@ export const snapshotMap = new Map<string, SnapshotWallet[]>()
   .set('dl-vota', dlVota)
   .set('smb-gen2', smbGen2)
   .set('smb-gen3', smbGen3)
+  .set('domain-dot-ser', domainDotSer)
 
 export const snapshots: Snapshot[] = [
   {
@@ -81,5 +83,13 @@ export const snapshots: Snapshot[] = [
     name: 'Solana Monkey Business - Gen 3',
     description: 'List of SMB Gen 3 holders',
     address: '8Rt3Ayqth4DAiPnW9MDFi63TiQJHmohfTWLMQFHi4KZH',
+  },
+  {
+    type: 'domain',
+    minimumAmount: 1,
+    id: 'domain-dot-ser',
+    name: '.ser Domain Holders',
+    description: 'Own one or more .ser domains',
+    address: '4U6kwibVcLwtXGkh2k6DYhvkYrTRGxF1e4tVv4SCgN6e',
   },
 ]

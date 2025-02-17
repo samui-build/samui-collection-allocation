@@ -1,7 +1,10 @@
 import { Helius } from 'helius-sdk'
-import 'dotenv/config'
+import { config } from 'dotenv'
 import { existsSync, writeFileSync } from 'node:fs'
 import { Snapshot, SnapshotWallet } from '../../src/snapshots'
+import { writeFile } from 'node:fs/promises'
+
+config({ path: `${process.cwd()}/.dev.vars` })
 
 export async function getContext(snapshot: Snapshot) {
   const endpoint = process.env.SOLANA_ENDPOINT
@@ -16,7 +19,8 @@ export async function getContext(snapshot: Snapshot) {
 
   const snapshotFile = `${process.cwd()}/src/snapshots/${snapshot.id}.json`
   if (!existsSync(snapshotFile)) {
-    throw new Error('Target file does not exist')
+    await writeFile(snapshotFile, JSON.stringify([], null, 2))
+    console.log(' => Created target file:', snapshotFile)
   }
 
   const helius = new Helius(endpoint.includes('=') ? endpoint.split('=')[1] : endpoint)
