@@ -1,9 +1,9 @@
-import { Snapshot, snapshots, SnapshotWallet } from "../snapshots";
-import { getSnapshot } from "./get-snapshot";
+import { snapshots, SnapshotWallet } from '../snapshots'
+import { getSnapshot } from './get-snapshot'
 
 export async function getSnapshotsForAddress(address: string): Promise<{
-  address: string,
-  allocation: number,
+  address: string
+  allocation: number
   snapshots: Record<string, Omit<SnapshotWallet, 'address'>>
 }> {
   const results = {
@@ -15,7 +15,7 @@ export async function getSnapshotsForAddress(address: string): Promise<{
   for (const snapshot of snapshots) {
     results.snapshots.set(snapshot.id, {
       amount: 0,
-      allocation: 0
+      allocation: 0,
     })
 
     const wallets = await getSnapshot(snapshot.id)
@@ -37,6 +37,5 @@ export async function getSnapshotsForAddress(address: string): Promise<{
     }
   }
 
-  return {...results, snapshots: Object.fromEntries(results.snapshots)}
+  return { ...results, snapshots: Object.fromEntries(results.snapshots) }
 }
-

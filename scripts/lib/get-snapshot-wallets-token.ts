@@ -1,11 +1,10 @@
-import { Snapshot, SnapshotWallet } from "../../src/snapshots";
-import { getContext } from "./get-context";
-import { getHoldersMint } from "./get-holders-mint";
+import { Snapshot, SnapshotWallet } from '../../src/snapshots'
+import { getContext } from './get-context'
+import { getHoldersMint } from './get-holders-mint'
 
 export async function getSnapshotWalletsToken(snapshot: Snapshot) {
-  const {collectionOrMint: mint, helius, updateWallets} = await getContext(snapshot)
+  const { collectionOrMint: mint, helius, updateWallets } = await getContext(snapshot)
   const holderMap: Record<string, SnapshotWallet> = {}
-
 
   const assets = await getHoldersMint(helius, mint)
 
@@ -18,7 +17,7 @@ export async function getSnapshotWalletsToken(snapshot: Snapshot) {
       holderMap[asset.owner].amount = Number(asset.amount) + holderMap[asset.owner].amount
       continue
     }
-    holderMap[asset.owner] = {address: asset.owner, amount: Number(asset.amount)}
+    holderMap[asset.owner] = { address: asset.owner, amount: Number(asset.amount) }
   }
 
   const holders: SnapshotWallet[] = Object.values(holderMap)

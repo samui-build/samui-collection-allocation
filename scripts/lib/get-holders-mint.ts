@@ -1,10 +1,10 @@
-import { DAS, Helius } from "helius-sdk";
+import { DAS, Helius } from 'helius-sdk'
 
 export interface TokenHolders {
-  total: number,
-  items: DAS.TokenAccounts[],
-  limit: number,
-  page: number,
+  total: number
+  items: DAS.TokenAccounts[]
+  limit: number
+  page: number
 }
 
 /**
@@ -12,27 +12,25 @@ export interface TokenHolders {
  * @param client Helius client
  * @param mint string Solana mint address
  */
-export async function getHoldersMint(
-  client: Helius,
-  mint: string,
-): Promise<TokenHolders> {
+export async function getHoldersMint(client: Helius, mint: string): Promise<TokenHolders> {
   let page = 1
   // Create a response list similar to the one returned by the API
   const list: TokenHolders = {
     total: 0,
     items: [],
     limit: 1000,
-    page
+    page,
   }
 
   // Loop through all pages of assets
   while (list.total < page * list.limit) {
-
     console.log(`   => getTokenAccounts [${mint}] => Fetching page ${page}...`)
-    const assets = await client.rpc.getTokenAccounts({mint, limit: list.limit, page: page})
+    const assets = await client.rpc.getTokenAccounts({ mint, limit: list.limit, page: page })
 
     if (!assets?.token_accounts?.length) {
-      console.log(`   => getTokenAccounts [${mint}] => No ${page > 1 ? 'more' : ''} token accounts found for mint ${mint}`)
+      console.log(
+        `   => getTokenAccounts [${mint}] => No ${page > 1 ? 'more' : ''} token accounts found for mint ${mint}`,
+      )
       break
     }
 
@@ -48,5 +46,5 @@ export async function getHoldersMint(
   const items = list.items?.length ? list?.items : []
 
   // Return the list with the page offset by 1
-  return {...list, page: page - 1, items}
+  return { ...list, page: page - 1, items }
 }

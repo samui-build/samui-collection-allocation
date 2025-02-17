@@ -1,17 +1,14 @@
-import { DAS, Helius } from "helius-sdk";
+import { DAS, Helius } from 'helius-sdk'
 
 /**
  * Get all assets by collection
  * @param client Helius Helius client
  * @param group string Solana account address of group
  */
-export async function getHoldersCollection(
-  client: Helius,
-  group: string,
-): Promise<DAS.GetAssetResponseList> {
+export async function getHoldersCollection(client: Helius, group: string): Promise<DAS.GetAssetResponseList> {
   let page = 1
   // Create a response list similar to the one returned by the API
-  const list: DAS.GetAssetResponseList = {total: 0, items: [], limit: 1000, page}
+  const list: DAS.GetAssetResponseList = { total: 0, items: [], limit: 1000, page }
 
   // Loop through all pages of assets
   while (list.total < page * list.limit) {
@@ -34,5 +31,5 @@ export async function getHoldersCollection(
   const items = list.items?.length ? list?.items : []
 
   // Return the list with the page offset by 1
-  return {...list, page: page - 1, items}
+  return { ...list, page: page - 1, items }
 }

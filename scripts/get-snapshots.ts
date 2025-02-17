@@ -1,6 +1,6 @@
-import { snapshots } from "../src/snapshots";
-import { getSnapshotWalletsNft } from "./lib/get-snapshot-wallets-nft";
-import { getSnapshotWalletsToken } from "./lib/get-snapshot-wallets-token";
+import { snapshots } from '../src/snapshots'
+import { getSnapshotWalletsNft } from './lib/get-snapshot-wallets-nft'
+import { getSnapshotWalletsToken } from './lib/get-snapshot-wallets-token'
 
 async function main() {
   for (const snapshot of snapshots) {
@@ -26,4 +26,3 @@ async function main() {
 main().catch((error) => {
   throw error
 })
-

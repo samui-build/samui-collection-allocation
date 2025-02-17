@@ -1,6 +1,6 @@
-import { writeFileSync } from "node:fs";
-import { getSnapshot } from "../src/lib/get-snapshot";
-import { snapshots } from "../src/snapshots";
+import { writeFileSync } from 'node:fs'
+import { getSnapshot } from '../src/lib/get-snapshot'
+import { snapshots } from '../src/snapshots'
 
 async function main() {
   const result: string[] = []

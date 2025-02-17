@@ -1,4 +1,4 @@
-import { snapshotMap, SnapshotWallet } from "../snapshots";
+import { snapshotMap, SnapshotWallet } from '../snapshots'
 
 export async function getSnapshot(id: string): Promise<SnapshotWallet[]> {
   const found = snapshotMap.get(id)
