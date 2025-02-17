@@ -4,9 +4,9 @@ import { existsSync, writeFileSync } from 'node:fs'
 import { Snapshot, SnapshotWallet } from '../../src/snapshots'
 
 export async function getContext(snapshot: Snapshot) {
-  const endpoint = process.env.HELIUS_ENDPOINT
+  const endpoint = process.env.SOLANA_ENDPOINT
   if (!endpoint) {
-    throw new Error('HELIUS_ENDPOINT is not set')
+    throw new Error('SOLANA_ENDPOINT is not set')
   }
 
   const collectionOrMint = snapshot.address
