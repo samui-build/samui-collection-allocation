@@ -22,7 +22,7 @@ export interface Snapshot {
   name: string
   id: string
   description: string
-  wallets?: SnapshotWallet[]
+  allocations?: SnapshotWallet[]
 }
 
 export const snapshotMap = new Map<string, SnapshotWallet[]>()
